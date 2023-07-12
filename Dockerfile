@@ -37,7 +37,6 @@ ENV LANG="C.UTF-8" \
     FILTER_RULE="!BLU & 4K & CN > !BLU & 1080P & CN > !BLU & 4K > !BLU & 1080P" \
     TRANSFER_TYPE="link" \
     DOUBAN_USER_IDS=""
-    USER_AGENT="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.79"
 WORKDIR "/app"
 COPY . .
 RUN apt-get update \
